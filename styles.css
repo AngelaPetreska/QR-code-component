@@ -1,52 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
-*{
-    font-family: 'Outfit', sans-serif;
-    margin: 0%;
-    padding: 0%;
+/*General Styles*/
+/*To make sure everything has a box-sizing of border-box*/
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-
 }
 
 body{
-    background-color: hsl(212, 45%, 89%);
-}
-.content{
-    height: 100vh;
-    width: 100%;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    background-color:hsl(212, 45%, 89%);
 }
 
-.box{
-    background: hsl(0, 0%, 100%); 
-    width: 20%;
-    height: 60%;
-    border-radius:  10px;
-    overflow: hidden;
-   
+.container{
+    margin:10% auto;
+    max-width:300px;
+    height: 480px;
+    border-radius: 20px;
+    background-color:hsl(0, 0%, 100%);
+    padding-left: 15px ;
+    padding-top: 15px;
 }
 
-.box img{
-    height: 50%;
-    width: 100%;
-    padding: 10px;
-    
-    border-radius: 2px  12px;
-    
+ img{
+    display: block;
+    border-radius:20px;
+    width:270px;
+    height:auto;
 }
- .box h2{
-    padding: 10x;
-    margin-top: 5px;
+
+img, .sentence1, .sentence2{
+    margin-bottom: 1.5rem;
+}
+
+/*Sentences*/ 
+
+.sentence1, .sentence2, .attribution {
+    font-family: Outfit, Cambria, Arial;
+}
+
+.sentence1{
+    display:inline-block;
+    margin-left: 0.6rem;
+    width:250px;
+    font-weight:700;
+    font-size: 20px;
+    text-align: center;
+    color:hsl(218, 44%, 22%);
+}
+
+.sentence2{
+    width:250px;
+    color:hsl(220, 15%, 55%);
+    font-weight:400;
     font-size: 15px;
     text-align: center;
- }
 
- .box p{
-    margin-top: 5px;
-    padding: 10px;
-    text-align: center;
-    font-size: 15px;
- }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
