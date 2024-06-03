@@ -1,8 +1,6 @@
 # Frontend Mentor - FAQ accordion solution
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
 
-### Screenshot ![desktop-preview](image-1.png) ![mobile-preview](image-2.png)
-
 ### Links
 - Solution URL: (https://github.com/AngelaPetreska/QR-code-component)
 - Live Site URL: (https://angelapetreska.github.io/QR-code-component/)
